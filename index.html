@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Marc Baeuerle">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Marc's Website</title>
+  <link rel="icon" type="image/x-icon" href="photos/title_icon.png">
+  <link rel="stylesheet" href="newStyle.css" media="screen" type="text/css">
+  <script>
+
+  </script>
+
+
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a class="nav-logo" href="#">
+        <span>Marc Baeuerle</span>
+        <div class="cursor"></div>
+      </a>
+
+      <ul class="nav-list">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="#anchor-about">About</a>
+        </li>
+        <li>
+          <a href="#anchor-photography">Photography</a>
+        </li>
+        <li>
+          <a class="end" href="demos.html">Demos page</a>
+        </li>
+      </ul>
+
+      <ul class="hamburger">
+        <li>
+          <a href="#">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+        </li>
+      </ul>
+
+
+    </nav>
+  </header>
+  <main>
+    <div id="non-image">
+      <section id="sidebar-contact">
+        <ul>
+          <!--a href="link address"><img src="image destination"></a>-->
+          <li><a href="https://github.com/MarcBaeuerle"><img src="photos/github_icon.png" height="25"
+                alt="github logo"></a></li>
+          <li><a href="https://www.instagram.com/marcc.baeuerle/"><img src="photos/instagram_icon.png" height="25"
+                alt="instagram logo"></a></li>
+          <li>
+            <h4><span id="line"></span>mbaeuerl@ucsd.edu</h4>
+          </li>
+        </ul>
+      </section>
+
+
+      <section id="anchor-home">
+
+        <div class="home-text">
+          <h2><code>Hi, my name is</code></h2>
+          <h1><span><strong>Marc Baeuerle.</strong></span></h1>
+          <h3>I'm a student who enjoys creating products and learning new things.
+            When I'm not busy with school or working on my projects, you'll find me fiddling around with my camera.
+          </h3>
+        </div>
+        <aside>
+          <picture id="profile-pic">
+            <source media="(max-width:992px)" srcset="photos/me_2.webp">
+            <img src="photos/profile_picnew.webp" alt="Me standing in from of the golden gate bridge">
+          </picture>
+        </aside>
+        <br>
+
+      </section>
+
+    
+      <section id="anchor-about">
+        <div class="about-text">
+          <h2>About me</h2>
+          <p>Hello! My name is Marc and I study Mathematics-Computer science at UCSD. Being very interested in the
+            visual aspects of life, I like to experiment with the ways in which we present content on the internet
+            and take a liking in manipulating images through photoshop or tinkering with my dslr. This has lead me
+            to my endevours of discovering the possibilities that come with front-end development.
+          </p>
+
+          <h4>Here are some of my upcoming projects that will be available soon.</h4>
+          <ul>
+            <li>
+              <h4>Spotify App</h4>
+              <p class="descrip">This is spotify app that tracks your favourite songs using Spotify's API</p>
+              <br>
+              <p>Technologies used: SpotifyAPI, NodeJS, Express, React</p>             
+            </li>
+            <li>
+              <h4>A* Pathfinder</h4>
+              <p class="descrip">This is an experiment at using C++ to display the popular pathfinding alorithm.</p>
+              <br>
+              <p>Technologies used: HTML, CSS, javascript, C++</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <section id="anchor-photography">
+      <h6>My photographs</h6>
+      <ul class="pictures-one">
+        <li>
+          <img src="photos/bird.webp" loading="lazy" alt="Image of a Bee-Eater">
+        </li>
+        <li>
+          <img src="photos/honeybadger.webp" loading="lazy" alt="Image of a Honeybadger yawning">
+        </li>
+      </ul>
+      <ul class="pictures-two">
+        <li>
+          <img src="photos/planes.webp" loading="lazy" alt="Image of 5 Blue Angles flying in unison">
+        </li>
+        <li>
+          <img src="photos/sunset.webp" loading="lazy" alt="Image of a stuntman doing acrobatics with his bike">
+        </li>
+        <li>
+          <img src="photos/bikeshow.webp" loading="lazy" alt="Image of 3 fisherman in the sunset">
+        </li>
+      </ul>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>This page was built and designed by <strong>Marc Baeuerle</strong></p>
+    <button type="button"
+      onclick="alert('who is THOMAS A POWELL? 🙄🤭🤔🤫😰 in math: my solution ➗😊 in history: my QUEEN 👑😣 in art: my canvas 🎨🥳 in science: my oxygen 💨😝 in geography: my world 🌎🤯')">Dont
+      click</button>
+      <ul>
+        <!--a href="link address"><img src="image destination"></a>-->
+        <li><a href="https://github.com/MarcBaeuerle"><img src="photos/github_icon.png" height="25"
+              alt="github logo"></a></li>
+        <li><a href="https://www.instagram.com/marcc.baeuerle/"><img src="photos/instagram_icon.png" height="25"
+              alt="instagram logo"></a></li>
+        <li>
+          <h4>mbaeuerl@ucsd.edu</h4>
+        </li>
+      </ul>
+  </footer>
+</body>
+
+
+</html>
