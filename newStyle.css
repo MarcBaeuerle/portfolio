@@ -122,7 +122,7 @@ nav {
 
 
 /* tablet screen */
-@media (max-width: 992px) {
+@media (max-width: 992px) and (hover: none) {
 
     header {
         background-color: #020305;
@@ -312,7 +312,7 @@ section {
 
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (hover: hover) {
     #anchor-home aside img:hover {
         filter: grayscale(1);
         transform: scale(1.1);
@@ -464,6 +464,17 @@ section {
 .pictures-two li img {
     max-width: 100%;
     height: auto;
+}
+
+@media screen and (hover: hover) {
+    li img {
+        transition: 0.3s;
+    }
+
+    li img:hover {
+        transform: scale(1.05);
+        border-radius: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
