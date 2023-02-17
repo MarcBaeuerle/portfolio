@@ -208,7 +208,7 @@ nav {
 #line {
     display: inline-block;
     width: 2px;
-    height: 30vh;
+    height: 32vh;
     margin-bottom: 12px;
     background-color: #020305;
 }
@@ -432,7 +432,10 @@ section {
 #anchor-photography {
     max-width: 1944px !important;
     /* border: 1px solid white; */
+}
 
+#anchor-photography * {
+    font-size: 0;
 }
 
 
