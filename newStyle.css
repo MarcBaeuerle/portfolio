@@ -266,6 +266,7 @@ section {
     display: flex;
     font-family: sans-serif;
     font-size: 1rem;
+    margin-left: 20%;
 }
 
 
@@ -323,11 +324,12 @@ section {
     #anchor-home {
         flex-wrap: wrap;
         width: 90% !important;
+        margin-left: auto;
     }
 
     .home-text {
-        padding-top: 10vh;
-        margin-top: 5vh;
+        padding-top: 5vh;
+        margin-top: 3vh;
         font-size: 0.7em;
         margin-bottom: 0;
         max-width: 100%;
@@ -416,7 +418,7 @@ section {
 
 @media screen and (max-width: 768px) {
     #anchor-about {
-        height: max(1200px, 120vh);
+        height: max(1400px, 120vh);
     }
 
     .about-text ul {
